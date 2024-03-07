@@ -4,7 +4,7 @@ import plotly.express as px
 
 st.header('This is the data on vehicles in the U.S.')
 
-data = pd.read_csv('../vehicles_us.csv')
+data = pd.read_csv('vehicles_us.csv')
 
 agree = st.checkbox('Display histogram on odometer readings')
 
